@@ -19,8 +19,8 @@ jobs:
       - name: Build the app
         run: |
           xcodebuild \
-           -project action.xcodeproj \
-           -scheme action \
+           -project action2.xcodeproj \
+           -scheme action2 \
            -sdk iphonesimulator \
            -destination 'platform=iOS Simulator' \
            build
